@@ -1,6 +1,6 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
-const routes = require('./controllers/burgers-controller')
+const routes = require('./controllers/burgers_controller')
 
 
 PORT = process.env.PORT || 8080
@@ -18,4 +18,4 @@ app.set('view engine', 'handlebars')
 
 app.listen(PORT, () => {
     console.log('http://localhost:' + PORT)
-})
+});
